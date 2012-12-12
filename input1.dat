@@ -1,0 +1,17 @@
+Number of elements:
+6
+Number of nodes:
+6
+Element properties: <Elastic modulus> <Second moment of area> <Area> <Length> <Angle [rad]> <Joint no. 1> <Joint no. 2> 
+			200000 		       10000000       10000 	2000 	   1.5708	1 		2	
+			200000 		       10000000       10000 	1000 	   0		2 		3	
+			200000 		       10000000       10000 	1000 	   0		3 		4	
+			200000 		       10000000       10000 	1000 	   -1.5708	4 		5	
+			200000 		       10000000       10000 	1414 	   -0.7854	3 		5	
+			200000 		       10000000       10000 	1000 	   -1.5708	5 		6		
+Applied load [N]: <R1, R2, ... Rn, where n = 3 * #nodes>
+		    0 0 0 	0 0 0 	0 -3000 0 	0 0 0 	0 0 0 	0 0 0
+Constraints: <r1, r2, ... rn, where n = 3 * #nodes, and 0 denotes a fixed constraint and 1 otherwise>
+	       	    0 0 1 	1 1 1 	1 1 1 	1 1 1 	1 1 1 	1 1 1
+	
+
